@@ -1,1 +1,10 @@
-greeting: from prod
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/cart_db
+    username: root
+    password: r@th15h
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
